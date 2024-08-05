@@ -1,0 +1,44 @@
+.email-form {
+    /* background: url('/img/blob.svg') no-repeat; */
+  padding: 20px;
+  font-size: 13px;
+}
+
+.email-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.email-form input[type="text"],
+.email-form select,
+.email-form textarea {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.email-form .radio-group,
+.email-form .encoding-group,
+.email-form .format-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.email-form .radio-group input,
+.email-form .encoding-group select,
+.email-form .format-group input {
+  margin-right: 10px;
+}
+
+.email-form .radio-group label,
+.email-form .format-group label {
+  margin-right: 20px;
+}
+
